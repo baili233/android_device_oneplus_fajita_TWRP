@@ -141,3 +141,25 @@ TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_USB_STORAGE := true
 PLATFORM_VERSION := 16.1.0
+
+# NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
+# Path of your SHRP Tree
+SHRP_PATH := device/oneplus/fajita
+# Maintainer name *
+SHRP_MAINTAINER := Bailiwind
+# Device codename *
+SHRP_DEVICE_CODE := fajita
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := SAR
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A/B
+
+SHRP_STATUSBAR_RIGHT_PADDING := 40 SHRP_STATUSBAR_LEFT_PADDING := 40
+
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd SHRP_INTERNAL := /sdcard SHRP_OTG := /usb_otg
+SHRP_FLASH := 0
+SHRP_AB := true
