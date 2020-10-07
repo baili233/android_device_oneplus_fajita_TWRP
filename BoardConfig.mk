@@ -154,12 +154,15 @@ SHRP_REC_TYPE := SAR
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
 SHRP_DEVICE_TYPE := A/B
 
-SHRP_STATUSBAR_RIGHT_PADDING := 40 SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_STATUSBAR_RIGHT_PADDING := 40 
+SHRP_STATUSBAR_LEFT_PADDING := 40
 
 SHRP_NOTCH := true
 SHRP_EXPRESS := true
 SHRP_DARK := true
 SHRP_EDL_MODE := 1
-SHRP_EXTERNAL := /external_sd SHRP_INTERNAL := /sdcard SHRP_OTG := /usb_otg
+SHRP_EXTERNAL := /external_sd 
+SHRP_INTERNAL := /sdcard 
+SHRP_OTG := /usb_otg
 SHRP_FLASH := 0
 SHRP_AB := true
